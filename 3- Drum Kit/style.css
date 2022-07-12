@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(21, 21, 39);
+
+}
+.keys {
+    height: 100vh;
+    display: flex;
+    font-size: 40px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.key {
+    margin: 20px;
+    background-color:rgb(168, 24, 24);
+    color: white;
+    padding: 20px;
+    text-shadow: 0 0 10px white;
+border: 5px solid white;
+transition: all .05s;
+}
+.key_run {
+    transform: scale(1.2);
+    border-color: rgb(236, 197, 23);
+    box-shadow: 5px 10px 10px rgb(248, 236, 62);
+}
+.footer{
+    background-color: #0E2431;
+    color: #fff;
+    text-align: center;
+    font-weight:600;
+    padding: 2rem 0;
+
+
+}
+.footer_title{
+    font-size: 2rem;
+  /*  margin-bottom:2rem;*/
+}
+.footer_social{
+
+   margin-bottom:2rem;
+
+}
+.footer_icon{
+    font-size: 1.5rem;
+    color:#fff;
+    margin: 0 ;
+}
